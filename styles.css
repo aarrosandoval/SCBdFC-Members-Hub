@@ -16,19 +16,24 @@ body {
 
 /* Header */
 .club-header {
+  display: flex;
+  align-items: center;
+  justify-content: center; /* centers the group horizontally */
   padding: 20px 10px;
-  border-bottom: 3px solid #0056b3; /* blue accent */
+  border-bottom: 3px solid #0056b3;
+  gap: 20px; /* space between logo and title */
+}
+
+.club-logo {
+  max-height: 100px; /* make logo larger */
+  width: auto;
 }
 
 .club-header h1 {
   font-size: 2rem;
-  margin-top: 10px;
-}
-
-.club-logo {
-  max-height: 80px;
-  display: block;
-  margin: 0 auto;
+  color: #fff;
+  margin: 0;
+  text-align: left;
 }
 
 /* Navigation */
