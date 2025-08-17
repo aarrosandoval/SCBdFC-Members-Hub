@@ -16,26 +16,30 @@ body {
 
 /* Header */
 .club-header {
+  padding: 15px 20px;
+  border-bottom: 3px solid #0056b3; /* blue accent */
+  background-color: #000; /* match site background */
+}
+
+.club-header-content {
   display: flex;
-  align-items: center;
-  justify-content: center; /* centers the group horizontally */
-  padding: 20px 10px;
-  border-bottom: 3px solid #0056b3;
-  gap: 20px; /* space between logo and title */
+  align-items: center;   /* vertical center */
+  justify-content: center; /* center whole block horizontally */
+  gap: 15px;             /* spacing between logo and text */
+  flex-wrap: wrap;       /* responsive on small screens */
+  text-align: left;
 }
 
 .club-logo {
-  max-height: 100px; /* make logo larger */
+  height: 90px;   /* slightly larger */
   width: auto;
 }
 
 .club-header h1 {
-  font-size: 2rem;
+  font-size: 1.8rem;
   color: #fff;
   margin: 0;
-  text-align: left;
 }
-
 /* Navigation */
 .club-nav {
   display: flex;
