@@ -18,21 +18,26 @@ body {
 .club-header {
   padding: 15px 20px;
   border-bottom: 3px solid #0056b3; /* blue accent */
-  background-color: #000; /* match site background */
+  background-color: #000; /* black background */
 }
 
 .club-header-content {
   display: flex;
-  align-items: center;   /* vertical center */
-  justify-content: center; /* center whole block horizontally */
-  gap: 15px;             /* spacing between logo and text */
-  flex-wrap: wrap;       /* responsive on small screens */
+  align-items: center;     /* vertically center logo + text */
+  justify-content: flex-start; /* align everything to the left */
+  gap: 20px;               /* space between logo and text */
   text-align: left;
 }
 
 .club-logo {
-  height: 90px;   /* slightly larger */
+  height: 90px;   /* larger logo */
   width: auto;
+}
+
+.club-header h1 {
+  font-size: 1.8rem;
+  color: #fff;
+  margin: 0;
 }
 
 .club-header h1 {
