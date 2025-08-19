@@ -23,9 +23,9 @@ body {
 
 .club-header-content {
   display: flex;
-  align-items: center;     /* vertically center logo + text */
-  justify-content: flex-start; /* align everything to the left */
-  gap: 20px;               /* space between logo and text */
+  align-items: center;
+  justify-content: flex-start;
+  gap: 20px;
   text-align: left;
 }
 
